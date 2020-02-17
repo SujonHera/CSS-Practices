@@ -1,5 +1,0 @@
-working list==>
-1. Git and GitHub
-2. CSS3 advanced Must 
-3. Make a responsive portfolio without bootstrap
-4. Javascript Dom 
