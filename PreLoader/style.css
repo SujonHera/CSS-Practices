@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.isdc-preloader{
+    height: 100vh;
+    background-color: #041230;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.pluse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 50%;
+}
+.pluse::before{
+    content: "";
+    position: absolute;
+    /* border: 10px solid #ffffff; */
+    border-radius: 50%;
+    animation:pulseeffect 1s linear infinite;
+
+}
+.pluse::after {
+    content: "";
+    position: absolute;
+    border: 20px solid #ffffff;
+    border-radius: 50%;
+    opacity: 0;
+    animation:pulseeffect 1s linear infinite;
+    animation-delay: 0.5s;
+}
+@keyframes pulseeffect{
+    0%{
+        transform:scale(0.5);
+        opacity: 0;
+    }
+    50%{
+        transform:scale(1);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(2);
+        opacity: 0;
+    }
+}

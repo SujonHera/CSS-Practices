@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.isdc-preloader{
+    height: 100vh;
+    background-color:#041230;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+.pulse{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 50%;
+    position: relative;
+}
+.pulse::before{
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    animation: pulseeffect 2s linear infinite;
+
+}
+.pulse::after {
+    content: "";
+    position: absolute;
+    border: 20px solid #fff;
+    border-radius: 50%;
+    animation: pulseeffect 1s linear infinite;
+    animation-delay: 0.5s;
+}
+
+@keyframes pulseeffect{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+        
+    }
+    25%{
+        transform: scale(0.25);
+        opacity: 0.25;
+        
+    }
+    50%{
+        transform: scale(0.50);
+        opacity: 0.5;
+    }
+    75%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(2);
+        opacity: 0;
+    }
+}
