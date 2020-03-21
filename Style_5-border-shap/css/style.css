@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding:0;
+}
+div{
+    border: 2px solid black;
+    width: 400px;
+    height: 400px;
+    border-radius: 51% 72% 10% 87% / 68% 98% 10% 64%;
+    text-align: center;
+    background-color: deeppink;
+}
+h4{
+    color: white;
+    font-size: 40px;
+    padding-top: 35px;
+}
+h3{
+    color: green;
+    font-size: 60px;
+    
+}
+h5{
+    color:black;
+    font-size: 40px;
+}
