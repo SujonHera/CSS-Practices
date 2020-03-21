@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background: #00007e; */
+
+}
+
+#main-section {
+    /* background: #041230; */
+    /* padding: 48px 0px; */
+    padding-bottom: 185px;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)),
+        url(../img/slider6.jpg); */
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    color: white;
+    /* background: #04123C; */
+    background: linear-gradient(to right, #0D47A1, #041230);
+}
+
+.brand-logo {
+    display: flex;
+    justify-content: center;
+    margin-top: -88px;
+    margin-bottom: 58px;
+}
+
+.logo {
+    width: 647px;
+    height: 530px;
+    /* border: 5px solid white; */
+    border-radius: 25px;
+    /* margin-top: 15px; */
+}
+
+.brand-name {
+    color: white;
+    text-align: center;
+    margin-top: -216px;
+    font-family: "Cookie";
+}
+
+.brand-name h1 {
+    font-size: 103px;
+}
+
+.btn1 {
+    border: 2px solid white;
+    padding: 12px 12px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.btn1:hover {
+    border: 2px solid black;
+    padding: 12px 12px;
+    border-radius: 5px;
+    color: black;
+    background: white;
+    font-weight: 700;
+
+}
+
+.btn2 {
+    border: 2px solid white;
+    padding: 12px 14px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.btn3 {
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.btn3:hover {
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    font-weight: 700;
+}
+
+.btn2:hover {
+    border: 2px solid black;
+    padding: 12px 14px;
+    border-radius: 5px;
+    color: black;
+    background: white;
+    font-weight: 700;
+
+}
+/* Clinet site */
+.client-site {
+    color: white;
+    background-color: #0D47A1;
+    background-image: linear-gradient(62deg, #181719 0%, #181719 100%);
+    padding-bottom: 50px;
+}
+
+.client-site-style {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.client-site-style h1 {
+    font-weight: 700;
+    font-size: 34px;
+    padding-bottom: 10px;
+}
+
+.client-site-style i {
+    font-size: 50px;
+    color: green;
+    margin-bottom: 15px;
+}
+
+.client-site-style p {
+    font-size: 18px;
+    font-family: 'Yeon Sung',
+        cursive;
+
+}
+
+img.client-img {
+    width: 101px !important;
+    float: right;
+}
+
+.item-style {
+    height: 200px;
+}
+
+.item-style p {
+    text-align: left;
+    font-size: 16px;
+    font-style: italic;
+}
+/* End Client Site */
+
+.ready-section {
+    position: relative;
+    z-index: 1;
+    background: #61ba6d;
+    background: -webkit-linear-gradient(to right, #61ba6d, #83c331);
+    background: linear-gradient(to right, #0D47A1, #2196F3);
+    padding: 70px 0;
+    color: white;
+}
+
+.footer-section {
+    background-color: #232323;
+    color: #606060;
+    padding: 100px 0px;
+}
+
+.footer-section h5 {
+    text-transform: uppercase;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.social-icon {
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.social-icon-style {
+    height: 40px;
+    width: 42px;
+    background-color: #f5f6fa;
+    margin: 10px;
+    text-align: center;
+    border-radius: 50px;
+
+}
+
+.social-icon-style i {
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.bottom-footer-area {
+    background-color: #141414;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.bottom-footer-area p {
+    margin-bottom: 0;
+    color: #606060;
+    font-size: 14px;
+    line-height: 2;
+    font-weight: 500;
+}
